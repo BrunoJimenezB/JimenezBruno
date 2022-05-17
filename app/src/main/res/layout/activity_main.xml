@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textViewNombre"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="164dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textViewApellido"
+        android:layout_width="137dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="156dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNombre" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        app:layout_constraintEnd_toStartOf="@+id/textViewNombre"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellido"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="82dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Base"
+        app:layout_constraintEnd_toStartOf="@+id/textViewBase"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="85dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="308dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Exponente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <EditText
+        android:id="@+id/textViewBase"
+        android:layout_width="152dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="140dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewApellido" />
+
+    <EditText
+        android:id="@+id/textViewExponente"
+        android:layout_width="213dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/buttonSiguiente1"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="96dp"
+        android:text="@string/buttonSiguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewfact" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Factorial"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <EditText
+        android:id="@+id/textViewfact"
+        android:layout_width="206dp"
+        android:layout_height="36dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/buttonMostrarResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="96dp"
+        android:text="@string/buttonMostrarResultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSiguiente1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

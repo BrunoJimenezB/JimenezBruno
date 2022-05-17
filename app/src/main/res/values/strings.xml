@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JimenezBruno</string>
+    <string name="buttonSiguiente">Siguiente</string>
+    <string name="buttonMostrarResultado">MostrarResultado</string>
+    <string name="buttonSiguiente2">Siguientes</string>
+    <string name="buttonCerrar2">Cerrar</string>
+</resources>
